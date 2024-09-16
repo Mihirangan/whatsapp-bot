@@ -73,7 +73,7 @@ module.exports = {
         }),
   NO_ONLINE:
     process.env.NO_ONLINE === undefined
-      ? false
+      ? true
       : convertToBool(process.env.NO_ONLINE),
   CLR_SESSION:
     process.env.CLR_SESSION === undefined
